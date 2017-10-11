@@ -1,0 +1,19 @@
+﻿.aside{
+    flex: 1;
+    flex-direction: column;
+    background-color:$color-primary-1;
+    padding-top: 30px;
+    font-family:$font-menu;
+    & .widget{
+               padding:10px 15px;
+               .menu{
+                   &__item{
+                       cursor:pointer;
+                       &:hover{
+                           color:$color-primary-2;
+                       }
+                   }
+               }
+               
+           }
+   }

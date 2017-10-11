@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Play");
+.h-menu .menu {
+  font-family: "Play", sans-serif;
+  display: flex; }
+  .h-menu .menu__item {
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em 0;
+    border-right: 1px solid #fff; }
+    .h-menu .menu__item:last-child {
+      border: none; }
+    .h-menu .menu__item a {
+      text-decoration: none;
+      color: #fff;
+      padding: 15px 2em;
+      text-transform: uppercase; }
+      .h-menu .menu__item a:hover {
+        color: #052577; }
+
+.main {
+  display: flex;
+  flex-direction: row; }
+
+.aside {
+  flex: 1;
+  flex-direction: column;
+  background-color: #0938AE;
+  padding-top: 30px;
+  font-family: "Play", sans-serif; }
+  .aside .widget {
+    padding: 10px 15px; }
+    .aside .widget .menu__item {
+      cursor: pointer; }
+      .aside .widget .menu__item:hover {
+        color: #325FCF; }
+
+.article-area {
+  flex: 4;
+  background-color: #92A8DC; }
+
+.article {
+  padding: 15px; }
+  .article h2.heading {
+    font-family: "Teko", sans-serif;
+    font-size: 2em;
+    color: #0938AE;
+    margin: 10px 30px; }
+  .article .postmeta {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    color: #0938AE; }
+    .article .postmeta--box {
+      padding: 0 20px; }
+    .article .postmeta .author:before {
+      padding: 0 10px;
+      font-family: FontAwesome;
+      content: '\f007'; }
+    .article .postmeta .clock:before {
+      padding: 0 10px;
+      font-family: FontAwesome;
+      content: '\f017'; }
+    .article .postmeta .comm:before {
+      padding: 0 10px;
+      font-family: FontAwesome;
+      content: '\f086'; }
+  .article .postblock {
+    background-color: #0938AE;
+    margin: 20px 30px;
+    padding: 10px 20px; }
+
+.footer {
+  background-color: #325FCF;
+  padding: 12px 30px; }
+
+body {
+  background-color: #92A8DC; }

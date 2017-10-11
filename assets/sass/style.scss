@@ -1,0 +1,13 @@
+﻿@import'variable';
+@import'mixin';
+@import'heading';
+@import'main';
+@import'aside';
+@import'article-area';
+@import'footer';
+
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+body {
+    background-color: $color-primary-0;
+}

@@ -1,0 +1,62 @@
+﻿.article-area{
+    flex: 4;
+    background-color:$color-primary-0;
+}
+
+.article {
+    padding: $block-spaces;
+
+    h2.heading {
+        font-family: $font-header;
+        font-size: 2em;
+        color: $color-primary-1;
+        margin:10px 30px;
+    }
+
+    .postmeta {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        color:$color-primary-1;
+
+        &--box {
+            padding: 0 20px;
+        }
+
+        .author {
+            &:before {
+                padding:0 10px;
+                font-family: FontAwesome;
+                content: '\f007';
+            }
+        }
+
+        .clock {
+            &:before {
+                padding:0 10px;
+                font-family: FontAwesome;
+                content: '\f017';
+            }
+        }
+
+        .comm {
+            &:before {
+                padding:0 10px;
+                font-family: FontAwesome;
+                content: '\f086';
+            }
+        }
+    }
+    .postblock{
+        background-color: $color-primary-1;
+        margin:20px 30px;
+        padding: 10px 20px;
+        &--images{
+            
+        }
+
+        &--text{
+
+        }
+    }
+}

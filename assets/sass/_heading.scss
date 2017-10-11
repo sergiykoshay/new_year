@@ -1,0 +1,32 @@
+﻿.logo-box{}
+.logo{}
+.h-menu {
+    .menu { 
+        font-family: $font-menu;
+        display: flex;
+        &__item {
+            list-style: none;
+           
+            flex-direction:row;
+            flex-wrap:wrap;
+            padding: 1em;
+            margin: 1em 0;
+            border-right: 1px solid #fff;
+            &:last-child{
+                border:none;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+                padding: 15px 2em;
+                text-transform:uppercase;
+                
+
+                &:hover {
+                    color: $color-primary-3;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,24 @@
+, carousel {
+    &-cell {
+        margin: 0 0 0 150px;
+        overflow: hidden;
+        padding:13px;
+        img {
+            display: block;
+            height: auto;
+            width: 100%;
+            
+        }
+    }
+}
+
+
+@media screen and ( min-width: 768px ) {
+    .carousel{
+        width:100vw;
+    }
+    .carousel-cell img {
+        height: auto;
+        width: 100%;
+    }
+}
