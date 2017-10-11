@@ -55,15 +55,15 @@
     .article .postmeta--box {
       padding: 0 20px; }
     .article .postmeta .author:before {
-      padding: 0 10px;
+      padding: 0 5px;
       font-family: FontAwesome;
       content: '\f007'; }
     .article .postmeta .clock:before {
-      padding: 0 10px;
+      padding: 0 5px;
       font-family: FontAwesome;
       content: '\f017'; }
     .article .postmeta .comm:before {
-      padding: 0 10px;
+      padding: 0 5px;
       font-family: FontAwesome;
       content: '\f086'; }
   .article .postblock {

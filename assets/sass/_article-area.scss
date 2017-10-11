@@ -1,4 +1,9 @@
-﻿.article-area{
+﻿@mixin postmeta {
+    padding: 0 5px;
+    font-family: FontAwesome;
+}
+
+.article-area{
     flex: 4;
     background-color:$color-primary-0;
 }
@@ -10,14 +15,14 @@
         font-family: $font-header;
         font-size: 2em;
         color: $color-primary-1;
-        margin:10px 30px;
+        margin: 10px 30px;
     }
 
     .postmeta {
         display: flex;
         flex-direction: row;
         width: auto;
-        color:$color-primary-1;
+        color: $color-primary-1;
 
         &--box {
             padding: 0 20px;
@@ -25,38 +30,36 @@
 
         .author {
             &:before {
-                padding:0 10px;
-                font-family: FontAwesome;
+                @include postmeta;
                 content: '\f007';
             }
         }
 
         .clock {
             &:before {
-                padding:0 10px;
-                font-family: FontAwesome;
+                @include postmeta;
                 content: '\f017';
             }
         }
 
         .comm {
             &:before {
-                padding:0 10px;
-                font-family: FontAwesome;
+                @include postmeta;
                 content: '\f086';
             }
         }
     }
-    .postblock{
+
+    .postblock {
         background-color: $color-primary-1;
-        margin:20px 30px;
+        margin: 20px 30px;
         padding: 10px 20px;
-        &--images{
-            
+
+        &--images {
         }
 
-        &--text{
-
+        &--text {
         }
     }
 }
+
