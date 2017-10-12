@@ -38,7 +38,7 @@
 
 .article-area {
   flex: 4;
-  background-color: #92A8DC; }
+  background-color: #94cef7; }
 
 .article {
   padding: 15px; }
@@ -67,7 +67,7 @@
       font-family: FontAwesome;
       content: '\f086'; }
   .article .postblock {
-    background-color: #0938AE;
+    background-color: #fcfafa;
     margin: 20px 30px;
     padding: 10px 20px; }
 
