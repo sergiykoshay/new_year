@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Play");
+.logo {
+  padding: 5px; }
+  .logo__img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: .5em .5em 0; }
+
 .h-menu .menu {
   font-family: "Play", sans-serif;
   display: flex; }

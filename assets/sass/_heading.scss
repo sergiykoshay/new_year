@@ -1,5 +1,14 @@
 ﻿.logo-box{}
-.logo{}
+.logo {
+    padding: 5px;
+
+    &__img {
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin: .5em .5em 0;
+    }
+}
 .h-menu {
     .menu { 
         font-family: $font-menu;
